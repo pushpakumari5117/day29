@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  background-color: #1a1c20;
+  color: white;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  overflow: hidden;
+  height: 100vh;
+  margin:0;
+}
+.user-form{
+  width: 100%;
+  max-width: 700px;
+}
+.user-form input{
+  width: 100%;
+  display: block;
+  background-color: #3c4f65;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+.user-form input::placeholder{
+  color: #bbb;
+  font-size: 1.2rem;
+}
+.user-form input:focus{
+  outline: none;
+}
+.card{
+  max-width: 800px;
+  background-color: #3c4f65;
+  border-radius: 30px;
+  display: flex;
+  padding: 3rem;
+  margin: 0 1.5rem;
+}
+
+.avatar{
+  border-radius: 50%;
+  border: 10px solid #283149;
+  height: 150px;
+  width: 150px;
+}
+.user-info{
+  margin-left: 2rem;
+}
+.user-info h2{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+.user-info p{
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+.user-info ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  max-width: 400px;
+}
+.user-info ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+.user-info ul li strong{
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+}
+.repo{
+  text-decoration: none;
+  cursor: white;
+  background-color: #1a1c20;
+  font-size: 1.2rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-right:  0.5rem;
+  margin-bottom: 0.5rem;
+  display:inline-block;
+  border-radius: 8px;
+
+}
+@media (max-width: 500px) {
+  .card{
+    flex-direction: column;
+    align-items: center;
+  }
+  .user-form{
+    max-width: 400px;
+  }
+}
