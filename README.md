@@ -11,3 +11,6 @@ An application that displays the details of the searched GitHub user (if valid).
 <a href="https://github.com/pushpakumari5117/githubProfiles"> View Code </a>
 ||
 <a href="https://pushpakumari5117.github.io/githubProfiles/"> Live Demo </a>
+<br>
+<br>
+<a href="https://ibb.co/NWhbyfJ"><img src="https://i.ibb.co/F8vCDcy/github-profiles.png" alt="github-profiles" border="0"></a>
